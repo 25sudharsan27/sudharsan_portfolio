@@ -1,0 +1,127 @@
+.hero{
+    padding-top:200px;
+    display:flex;
+    justify-content:center;
+    background : linear-gradient(to bottom,#0B0226, #3A2773);
+    height:100%;
+    padding-bottom:50px;
+    justify-content: space-evenly;
+    /* position: relative; */
+}
+
+.profile-pic{
+    /* width:400px; */
+    width:auto;
+    height:100%;
+    background-size: cover;
+
+}
+
+#hero{
+    width:40%;
+}
+.hero_content{
+
+    border:1px solid black;
+    display:flex;
+    flex-direction:column;
+}
+
+.hero_name{
+    display:flex;
+    align-items: end;
+    
+}
+
+.hero_name1{
+    font-size:40px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* padding:0px; */
+    margin:0px;
+
+}
+
+.hero_name2{
+    font-size:15px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    /* font-weight: bold; */
+    /* padding:0px; */
+    padding-left:10px;
+    padding-bottom:6px;
+    margin:0px;
+    position: relative;
+}
+
+.hero_name2::before{
+    content:"";
+    height:1px;
+    width:60%;
+    background-color:#B3CAFF;
+    top:-4px;
+    position: absolute;
+}
+
+.hero_education1{
+    font-size:14px;
+    color:#B3CAFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    padding:13px 0px;
+
+    margin:0px;
+}
+
+.hero_about1{
+    width:100%;
+    font-size:14px;
+    color:#B3CAFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding:13px 0px;
+    margin:0px;
+    line-height: 24px;
+}
+
+.hero_links{
+
+    display:flex;
+    align-items: flex-end;
+    /* justify-content: space-evenly; */
+    /* padding-top:20px; */
+}
+
+.hero_link_btn_img{
+    height:40px;
+}
+
+
+.hero_link_btn{
+
+    padding:0px 12px;
+    border-radius:15px;
+    background-color: #D6E2FF;
+    display:flex;
+    align-items: center;
+
+
+}
+.hero_link_btn_img{
+    height:20px;
+}
+
+.hero_link_btn_text{
+    padding-left:10px;
+    font-size:15px;
+    font-weight: bold;
+    font-family:'Inter', sans-serif;
+    font-weight: 600;
+    color:#0B0226;
+}
+
+.hero_link_btn_img1{
+    height:30px;
+    margin-left:20px;
+}

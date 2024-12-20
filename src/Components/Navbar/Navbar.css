@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.navbar{
+    border:1px solid black;
+    width:100%;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin: 0px;
+}
+
+.navbar__links{
+    display:flex;
+    border-radius: 15px;
+    position:fixed;
+    align-self: center;
+    top:40px;
+    background: linear-gradient(to bottom,#201541, #5236A7);
+}
+.navbar-link{
+
+    color:white;
+    text-decoration:none;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    padding:13px 23px;
+}
+
+.navbar-link:hover{
+    background:linear-gradient(to bottom,#B3CAFF, #7A89AB);
+    border-radius: 15px;
+    color:#0B0226;
+    text-decoration:none;
+}
+
