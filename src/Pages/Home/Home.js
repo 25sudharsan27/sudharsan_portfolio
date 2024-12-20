@@ -7,6 +7,7 @@ import Experiences from '../../Components/Experiences/Experiences';
 import Skills from '../../Components/Skills/Skills';
 import Blogs from '../../Components/Blogs/Blogs';
 import Connect from '../../Components/Connect/Connect';
+import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Skills/>
             <Blogs/>
             <Connect/>
+            <Footer/>
         </div>
     )
 }
