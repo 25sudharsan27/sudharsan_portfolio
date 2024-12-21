@@ -11,7 +11,9 @@
 }
 
 .project_item{
+    padding:30px;
     padding-top:80px;
+
     width:350px;
     display:flex;
     flex-direction: column;

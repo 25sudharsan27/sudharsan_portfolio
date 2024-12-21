@@ -22,3 +22,9 @@
     box-shadow: none;
     background: none;
 }
+
+@media screen and (max-width:700px){
+    .experiences_container{
+        padding:80px 20px;
+    }
+}

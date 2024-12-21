@@ -8,6 +8,8 @@
 }
 
 .connect_container2{
+    align-items: center;
+
     display:flex;
     position:relative;
     padding:80px;
@@ -53,7 +55,7 @@
 
 
 #connect_textarea{
-    height:30%;
+    height:150px;
 }
 
 .connect_button{
@@ -68,4 +70,44 @@
     cursor: pointer;
     position: relative;
     margin-top: 20px;
+}
+
+.connect-image{
+    
+}
+
+@media screen and (max-width:1000px){
+    .connect_container2{
+        display:flex;
+        align-items: center;
+        padding:30px;
+    }
+    #connect_textarea{
+        height:100px;
+    }
+}
+
+
+@media screen and (max-width:800px){
+    .connect_container{
+        margin:-1px;
+        /* padding:40px; */
+    }
+    .connect-image{
+        display:none;
+    }
+    .connect_input_label
+    .connect_container2{
+        flex-direction: column;
+        /* padding: 10px; */
+    }
+    .connect_form{
+        width:95%;
+    }
+    .connect_input{
+        width: 95%;
+    }
+    .connect_button{
+        /* width: 100%; */
+    }
 }

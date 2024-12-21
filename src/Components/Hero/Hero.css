@@ -80,6 +80,8 @@
 }
 
 .hero_about1{
+    text-align: justify;
+
     width:100%;
     font-size:14px;
     color:#B3CAFF;
@@ -95,7 +97,7 @@
     display:flex;
     align-items: flex-end;
     /* justify-content: space-evenly; */
-    /* padding-top:20px; */
+    padding-top:20px;
 }
 
 .hero_link_btn_img{
@@ -129,4 +131,75 @@
 .hero_link_btn_img1{
     height:30px;
     margin-left:20px;
+}
+
+
+
+
+@media screen and (max-width:1000px){
+    .hero{
+        padding:0px;
+        padding-top:200px;
+        /* flex-direction:column; */
+        align-items: center;
+
+    }
+
+    #hero{
+        /* width:80%; */
+    }
+
+    .hero_name1{
+        font-size:28px;
+    }
+
+    .hero_name2{
+        font-size:11px;
+    }
+
+    .hero_education1{
+        font-size:11px;
+    }
+
+    .hero_about1{
+        font-size:11px;
+        line-height:19px;
+    }
+
+    .hero_link_btn{
+        /* padding:0px 10px; */
+    }
+
+    .hero_link_btn_text{
+        font-size:11px;
+    }
+
+    .hero_link_btn_img{
+        height:20px;
+    }
+
+    .hero_link_btn_img1{
+        height:28px;
+    }
+    .profile-pic{
+        width:250px;
+    }
+}
+
+
+@media screen and (max-width:700px){
+    .hero{
+        flex-direction:column;
+        width:100%;
+        /* position:relative; */
+    }
+   
+    #hero{
+        width:85%;
+        margin-top:40px;
+    }
+    .profile-pic{
+        width:85%;
+    }
+
 }
