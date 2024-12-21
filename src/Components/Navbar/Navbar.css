@@ -20,7 +20,7 @@
     position:fixed;
     align-self: center;
     top:40px;
-    background: linear-gradient(to bottom,#201541, #5236A7);
+    background: linear-gradient(to bottom,#30215f, #5236A7);
 }
 .navbar-link{
 
@@ -32,7 +32,7 @@
 }
 
 .navbar-link:hover{
-    background:linear-gradient(to bottom,#B3CAFF, #7A89AB);
+    background:linear-gradient(to bottom,#B3CAFF, #6076a9);
     border-radius: 15px;
     color:#0B0226;
     text-decoration:none;

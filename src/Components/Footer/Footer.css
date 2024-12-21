@@ -2,7 +2,7 @@
     /* padding-bottom:40px; */
 }
 .some{
-    background:linear-gradient(to bottom  , #3A2773,#2d1a65);
+    background:linear-gradient(to bottom  , #3A2773,#2b1b5b);
     padding-top:40px;
     width:100%;
 }
@@ -16,7 +16,7 @@
     display:flex;
     padding:40px;
     justify-content: space-evenly;
-    background:linear-gradient(to bottom  , #2d1a65,#0B0226);
+    background:linear-gradient(to bottom  , #2b1b5b,#0B0226);
 
 }
 
