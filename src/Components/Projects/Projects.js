@@ -61,7 +61,6 @@ const Projects = () =>{
                     )
                 })
                 }
-                
             </div>
             <div className="projects_content3">
                 <a className="projects_content_btn" >Show more Projects</a>
