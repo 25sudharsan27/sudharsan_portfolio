@@ -30,10 +30,12 @@
 }
 
 .project-image{
+    max-height:200px;
     width:100%;
+
     height:auto;
     border-radius:15px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -111,6 +113,7 @@
 
 }
 .projects_content4{
+    padding-bottom:80px;
     background: linear-gradient(to bottom,#3A2773, #0B0226);
 
 }

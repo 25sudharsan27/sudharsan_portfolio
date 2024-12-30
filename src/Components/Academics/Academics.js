@@ -71,7 +71,7 @@ const Academics = () => {
       <div className="academics_content2">
         {academics.map((academic, index) => {
           return (
-            <div className="academic_item" {...getAosData("fade-up", index * 200)} key={index}>
+            <div   className="academic_item" {...getAosData("fade-up", index * 200)} key={index}>
               <div className="academic_left">
                 <h1 className="academic_name" {...getAosData("fade-left", 0)}>{academic.name}</h1>
                 <h3 className="academic_location" {...getAosData("fade-left", 100)}>( {academic.location} )</h3>
