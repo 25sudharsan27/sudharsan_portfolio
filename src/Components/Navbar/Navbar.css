@@ -86,10 +86,13 @@
         display:flex;
         justify-content: center;
         position: fixed;
-        
     }
     
-
+    #nav-mobile{
+        top:-11px;
+        width:86%;
+        
+    }
     .navbar__links {
         display: flex;
         flex-direction: row; /* Keep items in a row */

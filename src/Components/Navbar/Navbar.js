@@ -97,7 +97,7 @@ const Navbar = ({ activeSection }) => {
             </div>
         </div>
         <div id="navbar-mobile">
-            <div  className="navbar" style={{position:'fixed',marginTop:"-20px"}} {...getAosData("zoom-in", 0)} >
+            <div id="nav-mobile" className="navbar" style={{position:'fixed',marginTop:"-20px"}} {...getAosData("zoom-in", 0)} >
                 <div className="navbar__links">
                     <ScrollLink
                         className={`navbar-link ${activeSection === "hero" ? "active" : ""}`}
