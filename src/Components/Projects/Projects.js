@@ -36,8 +36,6 @@ const Projects = ({pro}) => {
       live: "https://github.com/25sudharsan27/excel_dashboard1/blob/main/Dashboard.xlsx"
     }
   ] : pro;
-  console.log(pro);
-
   // Initialize AOS
   useEffect(() => {
     AOS.init({

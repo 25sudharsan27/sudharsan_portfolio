@@ -31,9 +31,7 @@ const Navbar = ({ activeSection }) => {
         "data-aos-delay": delay, // Delay in milliseconds
       });
 
-      useEffect(()=>{
-        console.log(activeSection);
-      },[])
+      
     return (
         <div className="navbar">
         <div id="navbar-desktop" className="navbar" style={{position:'fixed',marginTop:"-20px"}} {...getAosData("zoom-in", 0)} >
