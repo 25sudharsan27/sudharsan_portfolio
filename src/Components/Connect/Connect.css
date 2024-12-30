@@ -70,6 +70,11 @@
     cursor: pointer;
     position: relative;
     margin-top: 20px;
+    transition: 0.3s;
+}
+.connect_button:hover{
+    background: #D6E2FF;
+    transition: 0.3s;
 }
 
 .connect-image{

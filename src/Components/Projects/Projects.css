@@ -17,12 +17,30 @@
     width:350px;
     display:flex;
     flex-direction: column;
+    cursor: pointer;
 }
+
+.project_nn{
+    border-radius:15px;
+    transition: 0.3s;
+}
+.project_nn:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .project-image{
     width:100%;
     height:auto;
     border-radius:15px;
     object-fit: contain;
+}
+
+
+.project_item_links1:hover{
+    background-color: #B3CAFF;
+    color:#0B0226;
+    transition: 0.3s;
 }
 
 .project_item_name{
@@ -83,6 +101,7 @@
     font-weight: 600;
     font-size:15px;
     text-decoration: none;
+    transition: 0.3s;
 }
 .projects_content3{
     padding-top:30px;
@@ -106,4 +125,10 @@
     margin-top:20px;
     cursor: pointer;
     text-decoration: none;
+    transition: 0.3s;
+}
+.projects_content_btn:hover{
+    background-color: #D6E2FF;
+    transform: scale(1.1);
+
 }

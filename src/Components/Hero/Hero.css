@@ -112,27 +112,39 @@
     background-color: #D6E2FF;
     display:flex;
     align-items: center;
-
+    transition: 0.3s;
 
 }
+.hero_link_btn:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+
 .hero_link_btn_img{
     height:20px;
 }
 
 .hero_link_btn_text{
+    padding:8px;
     padding-left:10px;
     font-size:15px;
     font-weight: bold;
     font-family:'Inter', sans-serif;
     font-weight: 600;
+    text-decoration: none;
     color:#0B0226;
 }
+
 
 .hero_link_btn_img1{
     height:30px;
     margin-left:20px;
+    transition: 0.2s;
 }
 
+.hero_link_btn_img1:hover{
+    transform: scale(1.1);
+}
 
 
 

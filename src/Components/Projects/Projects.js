@@ -64,6 +64,7 @@ const Projects = ({pro}) => {
         <div className="projects_content2">
           {projects.map((project, index) => {
             return (
+              <div className="project_nn">
               <div className="project_item" {...getAosData("fade-up", 200)} key={index}>
                 {/* Project Image */}
                 <img src={project.image} className="project-image" alt="Project" />
@@ -94,6 +95,7 @@ const Projects = ({pro}) => {
                     Show More
                   </a>
                 </div>
+              </div>
               </div>
             );
           })}

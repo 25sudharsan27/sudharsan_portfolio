@@ -80,6 +80,7 @@ const Skill = () => {
             <h1 className="skill_item_heading">{skill.heading}</h1>
             <div className="skill_item_tools">
               {skill.tools.map((tool, toolIndex) => (
+                <div className="skill_item_tool_ani">
                 <h3
                   key={toolIndex}
                   className="skill_item_tool"
@@ -87,6 +88,7 @@ const Skill = () => {
                 >
                   {tool}
                 </h3>
+                </div>
               ))}
             </div>
           </div>

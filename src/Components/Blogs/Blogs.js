@@ -66,31 +66,33 @@ const Blogs = ({blo}) => {
         <div className="projects_content2">
           {blogs.map((blog, index) => {
             return (
+              <div className="project_nn">
               <div
                 className="project_item"
                 key={index}
-                {...getAosData('fade-up', index * 200)} // Stagger animations for each blog
+                {...getAosData('fade-up',0)} // Stagger animations for each blog
               >
                 <img
                   src={blog.image}
                   className="project-image"
                   alt="Project image"
-                  {...getAosData('zoom-in', 200)} // Apply zoom-in animation for the image
+                  {...getAosData('zoom-in', 100)} // Apply zoom-in animation for the image
                 />
-                <h1 className="project_item_name" {...getAosData('fade-up', 300)}>
+                <h1 className="project_item_name" {...getAosData('fade-up', 200)}>
                   {blog.name}
                 </h1>
-                <h1 className="project_item_duration" {...getAosData('fade-up', 400)}>
+                <h1 className="project_item_duration" {...getAosData('fade-up', 250)}>
                   {blog.date_uploaded}
                 </h1>
-                <h3 className="project_item_description" {...getAosData('fade-up', 500)}>
+                <h3 className="project_item_description" {...getAosData('fade-up', 300)}>
                   {blog.description}
                 </h3>
-                <div className="project_item_links" {...getAosData('fade-up', 600)}>
+                <div className="project_item_links" {...getAosData('fade-up', 350)}>
                   <a href={blog.link} target="_blank" rel="noopener noreferrer">
                     <h1 className="project_item_links1">Show More</h1>
                   </a>
                 </div>
+              </div>
               </div>
             );
           })}

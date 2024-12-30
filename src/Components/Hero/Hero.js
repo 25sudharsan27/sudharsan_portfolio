@@ -52,12 +52,12 @@ const Hero = () => {
         <div {...getAosData("fade-up", 300)} className="hero_links">
           <div className="hero_link_btn">
             <img src={resume} className="hero_link_btn_img" alt="Resume" />
-            <h1 className="hero_link_btn_text">Resume</h1>
+            <a className="hero_link_btn_text" href="https://drive.google.com/file/d/10VzFtK5c7A3epV_oVeepqFK8FH6aM7rf/view?usp=sharing">Resume</a>
           </div>
           <div className="hero_link_btn1">
-            <img src={linkedin} className="hero_link_btn_img1" alt="LinkedIn" />
-            <img src={github} className="hero_link_btn_img1" alt="GitHub" />
-            <img src={leetcode} className="hero_link_btn_img1" alt="Leetcode" />
+            <a href="https://www.linkedin.com/in/sudharsan-baskaran-182bb4255/"><img  src={linkedin} className="hero_link_btn_img1" alt="LinkedIn" /></a>
+            <a href="https://github.com/25sudharsan27"><img src={github} className="hero_link_btn_img1" alt="GitHub" /></a>
+            <a href="https://leetcode.com/u/01sudharsan/" ><img src={leetcode} className="hero_link_btn_img1" alt="Leetcode" /></a>
           </div>
         </div>
       </div>
