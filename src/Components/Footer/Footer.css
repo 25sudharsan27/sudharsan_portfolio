@@ -177,4 +177,9 @@
     .footer_photo_image{
         height:100px;
     }
+    .footer_bottom{
+        padding-bottom:15px;
+        /* border:1px solid white; */
+        bottom:0px;
+    }
 }
