@@ -24,7 +24,7 @@ const Blogs1 = () => {
           date_uploaded: "Jun 2024",
           description:
             "Excited to share that I've successfully completed my first 100 questions on LeetCode and earned the 50 Days Badge for 2024! 🎉 Through this journey, I've honed my problem-solving skills and delved into various techniques",
-          image: "https://media.licdn.com/dms/image/v2/D5622AQGrFe_O1gi73A/feedshare-shrink_800/feedshare-shrink_800/0/1718619948638?e=1738195200&v=beta&t=P_sybksNXgwe3JnFf3Btra3P8G2SyRCZtqcV2pL8xlM",
+          image: "https://media.licdn.com/dms/image/v2/D5622AQEqEKKumEnIhg/feedshare-shrink_800/feedshare-shrink_800/0/1718619950146?e=1738195200&v=beta&t=Zp4CBCe--agICv1inDwRDxm1p0uCy_ZZAnbMFWi54sc",
           link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_leetcode-coding-problemsolving-activity-7208414538923200512-x4vP?utm_source=share&utm_medium=member_desktop",
         },
         {
@@ -91,6 +91,27 @@ const Blogs1 = () => {
             link:"https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_textiles-craftsmanship-quality-activity-7115396166011256832-yuoi?utm_source=share&utm_medium=member_desktop"
             
         },
+        {
+            name : "CGPA calculator in PYthon",
+            date_uploaded:"Sept 2023",
+            description:"🔔 Today I write a simple code in PYTHON to calculate the CGPA of a student. This calculator is useful for college students to calculate the CGPA with just giving no of subjects , and marks and grade of each subject",
+            image : "https://media.licdn.com/dms/image/v2/D5622AQHdd3rV-DAGDQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1693409172980?e=1738195200&v=beta&t=29oD21vlPRTrO4AORvYw1k6Sp0jGeV1u-OI2-zsFlbs",
+            link : "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_getting-activity-7102672876381601792-6NOQ?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+            name : "Python Gold Badge in HackerRank",
+            date_uploaded:"Aug 2023",
+            description:"🌟 Excited to share that I've achieved the Gold Badge in Python on HackerRank! 🌟 Through this journey, I've honed my problem-solving skills and delved into various Python techniques, from basic to advanced. 💻🚀",
+            image : "https://media.licdn.com/dms/image/sync/v2/D5627AQHeOq3v3ml33Q/articleshare-shrink_480/articleshare-shrink_480/0/1711625145717?e=1736150400&v=beta&t=TXaxSqd_vgpuyiw7WCPMafVkFx6TUK18OqLKC1VbHns",
+            link : "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_just-earned-the-gold-badge-for-python-on-activity-7093829751869472768-IHH-?utm_source=share&utm_medium=member_desktop"
+        },
+        {
+            name : "Python 4 Star in HackerRank",
+            date_uploaded:"Sept 2023",
+            description:"🌟 Excited to share that I've achieved 4 stars in Python on HackerRank! 🌟 Through this journey, I've honed my problem-solving skills and delved into various Python techniques, from basic to advanced. 💻🚀",
+            image : "https://media.licdn.com/dms/image/sync/v2/D5627AQHLTFeZERCq6Q/articleshare-shrink_480/articleshare-shrink_480/0/1711625145927?e=1736150400&v=beta&t=LrNaaCn0EV6H003fEff3QzqAUgeTkJDVezytQTnrIkA",
+            link : "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_just-earned-my-4th-star-on-the-python-badge-activity-7093504457467969536-pT2B?utm_source=share&utm_medium=member_desktop"
+        }
         
       ];
 

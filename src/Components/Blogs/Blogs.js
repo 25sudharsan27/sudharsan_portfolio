@@ -29,7 +29,7 @@ const Blogs = ({blo}) => {
       date_uploaded: "Jun 2024",
       description:
         "Excited to share that I've successfully completed my first 100 questions on LeetCode and earned the 50 Days Badge for 2024! 🎉 Through this journey, I've honed my problem-solving skills and delved into various techniques",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQGrFe_O1gi73A/feedshare-shrink_800/feedshare-shrink_800/0/1718619948638?e=1738195200&v=beta&t=P_sybksNXgwe3JnFf3Btra3P8G2SyRCZtqcV2pL8xlM",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQEqEKKumEnIhg/feedshare-shrink_800/feedshare-shrink_800/0/1718619950146?e=1738195200&v=beta&t=Zp4CBCe--agICv1inDwRDxm1p0uCy_ZZAnbMFWi54sc",
       link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_leetcode-coding-problemsolving-activity-7208414538923200512-x4vP?utm_source=share&utm_medium=member_desktop",
     },
 
