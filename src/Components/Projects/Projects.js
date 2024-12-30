@@ -9,6 +9,15 @@ import project3 from '../../Images/project/project3.svg';
 const Projects = ({pro}) => {
   const projects = (!pro) ? [
     {
+      name: "Portfolio Website",
+      date_uploaded: "Dec 2024",
+      technologies: "React, AOS, HTML ,CSS, JavaScript",
+      description: "I have developed a personal portfolio website using React.js, showcasing my skills, projects, and professional journey. The website is designed to provide an overview of my academic background, work experience, projects, blogs, and more. To enhance user experience and make the site more interactive, I have integrated animations using the AOS (Animate On Scroll) library. This adds smooth transitions and animations as users scroll through the different sections of the site.",
+      image:"https://media.licdn.com/dms/image/v2/D562DAQEgH2YVKoplbQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1735557044047?e=1736164800&v=beta&t=3bUWrvUHRpFsHkTq4FiEU9dYWR97fK8_gqICgYVYsNg",
+      github: "https://github.com/25sudharsan27/sudharsan_portfolio",
+      live: "https://sudharsan-portfolio-henna.vercel.app/"
+    },
+    {
       name: "Job Intern Catalyst",
       date_uploaded: "Sept 2024",
       technologies: "React, Node.js, Express, Redux, RESTful APIs, MongoDB",
@@ -26,15 +35,7 @@ const Projects = ({pro}) => {
       github: "https://github.com/25sudharsan27/pragmatic-project",
       live: "https://pragmatic-project.vercel.app"
     },
-    {
-      name: "Sales Dashboard",
-      date_uploaded: "April 2024",
-      technologies: "Microsoft Excel",
-      description: "In this dashboard, we analyze sales data across various cities and categories. The primary goal of this project is to gain real-life work experience utilizing my skills.",
-      image: project3,
-      github: "https://github.com/25sudharsan27/excel_dashboard1",
-      live: "https://github.com/25sudharsan27/excel_dashboard1/blob/main/Dashboard.xlsx"
-    }
+    
   ] : pro;
   // Initialize AOS
   useEffect(() => {
