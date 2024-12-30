@@ -6,8 +6,8 @@ import project1 from '../../Images/project/project1.svg';
 import project2 from '../../Images/project/project2.svg';
 import project3 from '../../Images/project/project3.svg';
 
-const Projects = () => {
-  const projects = [
+const Projects = ({pro}) => {
+  const projects = (!pro) ? [
     {
       name: "Job Intern Catalyst",
       date_uploaded: "Sept 2024",
@@ -35,7 +35,8 @@ const Projects = () => {
       github: "https://github.com/25sudharsan27/excel_dashboard1",
       live: "https://github.com/25sudharsan27/excel_dashboard1/blob/main/Dashboard.xlsx"
     }
-  ];
+  ] : pro;
+  console.log(pro);
 
   // Initialize AOS
   useEffect(() => {
@@ -63,7 +64,7 @@ const Projects = () => {
         <div className="projects_content2">
           {projects.map((project, index) => {
             return (
-              <div className="project_item" {...getAosData("fade-up", index * 200)} key={index}>
+              <div className="project_item" {...getAosData("fade-up", 200)} key={index}>
                 {/* Project Image */}
                 <img src={project.image} className="project-image" alt="Project" />
                 
@@ -99,9 +100,12 @@ const Projects = () => {
         </div>
 
         {/* Show More Projects Button */}
+        { !pro ?
         <div className="projects_content3">
-          <a className="projects_content_btn">Show more Projects</a>
+          <a href="/projects" className="projects_content_btn">Show more Projects</a>
         </div>
+        : null
+}
       </div>
     </div>
   );

@@ -82,6 +82,7 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size:15px;
+    text-decoration: none;
 }
 .projects_content3{
     padding-top:30px;
@@ -104,4 +105,5 @@
     font-size:15px;
     margin-top:20px;
     cursor: pointer;
+    text-decoration: none;
 }

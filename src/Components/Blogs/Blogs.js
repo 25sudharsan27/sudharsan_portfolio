@@ -6,33 +6,36 @@ import project2 from '../../Images/project/project2.svg';
 import project3 from '../../Images/project/project3.svg';
 import './Blogs.css';
 
-const Blogs = () => {
-  const blogs = [
+const Blogs = ({blo}) => {
+  const blogs = !blo ? [
     {
-      name: "Job Intern Catalyst",
+      name: "Smart India Hackathon 2024",
       date_uploaded: "Sept 2024",
       description:
-        "Developed a platform for job seekers/providers: Implemented job applications, skill assessments, and resume building.",
-      image: project1,
-      link: "https://github.com/25sudharsan27/SIH",
+        "🚀 Excited to share that our team participated in the Smart India Hackathon 2024 and developed an innovative job and internship platform that empowers students and job seekers to find the right opportunities! 🌟Together with hashtag#NiteshJ, hashtag#VinuKanth, hashtag#ShanmukhDevarasetty, hashtag#LogeshWaran, hashtag#AshishdeepKaur, ",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQFEIG1n95R5jQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726818879688?e=1738195200&v=beta&t=DMBkoMwYTM5VF6Nit1KZmjX7Xtzb2nnC4jwTSHNf-20",
+      link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_niteshj-vinukanth-shanmukhdevarasetty-activity-7242803342760894464-ol0a?utm_source=share&utm_medium=member_desktop",
     },
     {
-      name: "Pragmatic Project Consilium",
-      date_uploaded: "Nov 2024",
+      name: "Summer PEP Completion",
+      date_uploaded: "Aug 2024",
       description:
-        "Built a website for the company with sections like services, completed works, and an interactive roadmap.",
-      image: project2,
-      link: "https://github.com/25sudharsan27/pragmatic-project",
+        "🌟 Proud to share my latest achievement! 🌟 I’m thrilled to have successfully completed the PEP (Professional Enhancement Program) classes this summer, where I honed my skills in competitive coding and deepened my understanding of data structures and algorithms. 🚀 This intensive program challenged me to think critically and solve complex problems, while also allowing me to connect with a fantastic community of like-minded professionals.",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQGy4ykOQpgnMg/feedshare-shrink_1280/feedshare-shrink_1280/0/1724766304212?e=1738195200&v=beta&t=YtSuKVTsMHLR44WlaAwq3nc46CK8keN5hlfDxcbbG8s",
+      link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_competitivecoding-datastructures-algorithms-activity-7234194214660497408-xEyY?utm_source=share&utm_medium=member_desktop",
     },
     {
-      name: "Sales Dashboard",
-      date_uploaded: "April 2024",
+      name: "Leetcode 50 Days Completion",
+      date_uploaded: "Jun 2024",
       description:
-        "In this dashboard, we analyze sales data across various cities and categories. The primary goal of this project is to gain real-life work experience utilizing my skills.",
-      image: project3,
-      link: "https://github.com/25sudharsan27/excel_dashboard1",
+        "Excited to share that I've successfully completed my first 100 questions on LeetCode and earned the 50 Days Badge for 2024! 🎉 Through this journey, I've honed my problem-solving skills and delved into various techniques",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQGrFe_O1gi73A/feedshare-shrink_800/feedshare-shrink_800/0/1718619948638?e=1738195200&v=beta&t=P_sybksNXgwe3JnFf3Btra3P8G2SyRCZtqcV2pL8xlM",
+      link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_leetcode-coding-problemsolving-activity-7208414538923200512-x4vP?utm_source=share&utm_medium=member_desktop",
     },
-  ];
+
+  ] : 
+  blo;
+
 
   // Initialize AOS when the component is mounted
   useEffect(() => {
@@ -92,10 +95,11 @@ const Blogs = () => {
             );
           })}
         </div>
-
+        { blo ? null :
         <div className="projects_content3">
-          <a className="projects_content_btn">Show more Blogs</a>
+          <a href="/blogs" className="projects_content_btn">Show more Blogs</a>
         </div>
+}
       </div>
     </div>
   );
