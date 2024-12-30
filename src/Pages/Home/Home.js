@@ -25,10 +25,11 @@ const Home = () => {
 
     // Intersection Observer setup
     useEffect(() => {
+        const isMobile = window.innerWidth <= 800; // Adjust threshold or margin based on screen size
         const options = {
             root: null,
             rootMargin: '0px',
-            threshold: 0.5, // 50% visibility threshold
+            threshold: isMobile ? 0.4 : 0.5, // 50% visibility threshold
         };
 
         const observer = new IntersectionObserver((entries) => {

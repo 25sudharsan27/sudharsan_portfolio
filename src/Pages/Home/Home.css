@@ -8,3 +8,7 @@
     box-sizing: border-box;
     position: relative;
 }
+
+*{
+    -webkit-tap-highlight-color: transparent; /* for removing the highlight */
+}

@@ -135,3 +135,12 @@
     transform: scale(1.1);
 
 }
+
+@media screen and (max-width:700px){
+    .projects_content2{
+        /* padding:30px 40px; */
+    }
+    .project_item{
+        width:85%;
+    }
+}
