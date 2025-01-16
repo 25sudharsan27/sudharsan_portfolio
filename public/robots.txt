@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
+# Allow all bots to access everything
 User-agent: *
 Disallow:
+
+# Sitemap location (if you have a sitemap)
+Sitemap: https://sudharsan-portfolio-henna.vercel.app/sitemap.xml

@@ -13,3 +13,7 @@
 *{
     -webkit-tap-highlight-color: transparent; /* for removing the highlight */
 }
+
+#projects{
+    border:8px solid white;
+}
