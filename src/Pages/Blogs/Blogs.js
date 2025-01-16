@@ -1,5 +1,7 @@
 
 import Blogs from "../../Components/Blogs/Blogs"
+import { Helmet } from "react-helmet";
+
 
 const Blogs1 = () => {
     const blogs = [
@@ -116,10 +118,18 @@ const Blogs1 = () => {
         
       ];
 
+
     return (
-        <div className="home">
-            <Blogs blo={blogs} />
-        </div>
+        <>
+            <Helmet>
+                <text>Blogs</text>
+                <meta type="description" content="A list of blogs I have written on social media platforms like LinkedIn."/>
+                <meta type="keywords" content="Blogs, LinkedIn, Sudharsan Baskaran"/>
+            </Helmet>
+            <div className="home">
+                <Blogs blo={blogs} />
+            </div>
+        </>
     )
 }
 

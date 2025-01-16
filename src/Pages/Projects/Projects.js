@@ -4,6 +4,7 @@ import Projects from '../../Components/Projects/Projects';
 import project1 from '../../Images/project/project1.svg';
 import project2 from '../../Images/project/project2.svg';
 import project3 from '../../Images/project/project3.svg';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
     const projects = [
@@ -166,9 +167,17 @@ const Home = () => {
      
       
     return (
+      <>      
+        <Helmet>
+            <text>Projects</text>
+            <meta type="description" content="A list of Projects I have made and worked in."/>
+            <meta type="keywords" content="Projects, LinkedIn, Sudharsan Baskaran"/>
+        </Helmet>
         <div className="home">
             <Projects pro={projects}/>
         </div>
+      </>
+
     );
 }
 
