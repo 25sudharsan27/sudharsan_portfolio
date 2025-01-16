@@ -29,7 +29,7 @@ const Home = () => {
         const options = {
             root: null,
             rootMargin: '0px',
-            threshold: isMobile ? 0.4 : 0.5, // 50% visibility threshold
+            threshold: isMobile ? 0.2 : 0.5, // 50% visibility threshold
         };
 
         const observer = new IntersectionObserver((entries) => {
