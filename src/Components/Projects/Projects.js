@@ -13,7 +13,7 @@ const Projects = ({pro}) => {
       date_uploaded: "Dec 2024",
       technologies: "React, AOS, HTML ,CSS, JavaScript",
       description: "I have developed a personal portfolio website using React.js, showcasing my skills, projects, and professional journey. The website is designed to provide an overview of my academic background, work experience, projects, blogs, and more. To enhance user experience and make the site more interactive, I have integrated animations using the AOS (Animate On Scroll) library. This adds smooth transitions and animations as users scroll through the different sections of the site.",
-      image:"https://media.licdn.com/dms/image/v2/D562DAQEgH2YVKoplbQ/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1735557044047?e=1736164800&v=beta&t=3bUWrvUHRpFsHkTq4FiEU9dYWR97fK8_gqICgYVYsNg",
+      image:'https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737005742/mrc5jzx9tymwixh89ale.webp',
       github: "https://github.com/25sudharsan27/sudharsan_portfolio",
       live: "https://sudharsan-portfolio-henna.vercel.app/"
     },
@@ -22,7 +22,7 @@ const Projects = ({pro}) => {
       date_uploaded: "Sept 2024",
       technologies: "React, Node.js, Express, Redux, RESTful APIs, MongoDB",
       description: "Developed a platform for job seekers/providers: Implemented job applications, skill assessments, and resume building.",
-      image: project1,
+      image:  'https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737005745/ksqcev1munkgqfsczsek.webp',
       github: "https://github.com/25sudharsan27/SIH",
       live: "https://frontend-sih-swart.vercel.app"
     },
@@ -31,7 +31,7 @@ const Projects = ({pro}) => {
       date_uploaded: "Nov 2024",
       technologies: "ReactJS, ThreeJS, Javascript, AOS",
       description: "Built a website for the company with sections like services, completed works, and an interactive roadmap.",
-      image: project2,
+      image:   'https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737005751/pj6k7d8bpluz3s1gjhnx.webp',
       github: "https://github.com/25sudharsan27/pragmatic-project",
       live: "https://pragmatic-project.vercel.app"
     },
@@ -64,7 +64,7 @@ const Projects = ({pro}) => {
           {projects.map((project, index) => {
             return (
               <div className="project_nn">
-              <div className="project_item" {...getAosData("fade-up", 200)} key={index}>
+              <div className="project_item" onClick={()=>{window.open(project.github,'blank')}} {...getAosData("fade-up", 200)} key={index}>
                 {/* Project Image */}
                 <img src={project.image} className="project-image" alt="Project" />
                 

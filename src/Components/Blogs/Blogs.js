@@ -70,6 +70,7 @@ const Blogs = ({blo}) => {
               <div
                 className="project_item"
                 key={index}
+                onClick={() => window.open(blog.link, '_blank')} // Open the project link in a new tab
                 {...getAosData('fade-up',0)} // Stagger animations for each blog
               >
                 <img
