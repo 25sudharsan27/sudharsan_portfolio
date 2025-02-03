@@ -20,7 +20,7 @@ const Academics = () => {
       ],
       marks: {
         heading: "Grade",
-        details: "8.31 CGPA"
+        details: "8.41 CGPA"
       },
       duration: "Sept 2022 - Present",
       explanation: "I am currently pursuing a Bachelor of Technology in Computer Science and Engineering from Lovely Professional University, with Data Science as my open minor and DevOps as my elective minor. In 2024, I successfully cleared the technical interview for Summer Placement Classes at the college. During the training, I was mentored by Harsh Deep Singh, an SDE 1 at Google, who taught us competitive programming concepts and encouraged us to practice on various coding platforms. At the same time, I have worked on several projects, applying the skills I have learned through my university courses."

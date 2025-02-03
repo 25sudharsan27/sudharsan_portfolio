@@ -13,7 +13,7 @@ const Blogs = ({blo}) => {
       date_uploaded: "Sept 2024",
       description:
         "🚀 Excited to share that our team participated in the Smart India Hackathon 2024 and developed an innovative job and internship platform that empowers students and job seekers to find the right opportunities! 🌟Together with hashtag#NiteshJ, hashtag#VinuKanth, hashtag#ShanmukhDevarasetty, hashtag#LogeshWaran, hashtag#AshishdeepKaur, ",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQFEIG1n95R5jQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1726818879688?e=1738195200&v=beta&t=DMBkoMwYTM5VF6Nit1KZmjX7Xtzb2nnC4jwTSHNf-20",
+      image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011057/l4m0nfhyypgtjjygs6nh.webp",
       link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_niteshj-vinukanth-shanmukhdevarasetty-activity-7242803342760894464-ol0a?utm_source=share&utm_medium=member_desktop",
     },
     {
@@ -21,7 +21,7 @@ const Blogs = ({blo}) => {
       date_uploaded: "Aug 2024",
       description:
         "🌟 Proud to share my latest achievement! 🌟 I’m thrilled to have successfully completed the PEP (Professional Enhancement Program) classes this summer, where I honed my skills in competitive coding and deepened my understanding of data structures and algorithms. 🚀 This intensive program challenged me to think critically and solve complex problems, while also allowing me to connect with a fantastic community of like-minded professionals.",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQGy4ykOQpgnMg/feedshare-shrink_1280/feedshare-shrink_1280/0/1724766304212?e=1738195200&v=beta&t=YtSuKVTsMHLR44WlaAwq3nc46CK8keN5hlfDxcbbG8s",
+      image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011052/hlm33nlz365wu9s7vdgv.webp",
       link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_competitivecoding-datastructures-algorithms-activity-7234194214660497408-xEyY?utm_source=share&utm_medium=member_desktop",
     },
     {
@@ -29,7 +29,7 @@ const Blogs = ({blo}) => {
       date_uploaded: "Jun 2024",
       description:
         "Excited to share that I've successfully completed my first 100 questions on LeetCode and earned the 50 Days Badge for 2024! 🎉 Through this journey, I've honed my problem-solving skills and delved into various techniques",
-      image: "https://media.licdn.com/dms/image/v2/D5622AQEqEKKumEnIhg/feedshare-shrink_800/feedshare-shrink_800/0/1718619950146?e=1738195200&v=beta&t=Zp4CBCe--agICv1inDwRDxm1p0uCy_ZZAnbMFWi54sc",
+      image: "https://res.cloudinary.com/dbbmdq3uy/image/upload/v1737011051/nndojrrtsigus0udsiia.webp",
       link: "https://www.linkedin.com/posts/sudharsan-baskaran-182bb4255_leetcode-coding-problemsolving-activity-7208414538923200512-x4vP?utm_source=share&utm_medium=member_desktop",
     },
 
